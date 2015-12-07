@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "James O. Florentino <jamesflorentino@gmail.com> (http://jamesflorentino.com/)"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "~2.4.4"
+  }
+}
