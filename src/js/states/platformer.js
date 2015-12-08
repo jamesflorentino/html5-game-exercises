@@ -54,8 +54,8 @@ const platformer = {
     this.npcs.enableBody = true;
     this.npcs.physicsBodyType = Phaser.Physics.ARCADE;
     this.npcs.createMultiple(5, 'enemy');
-    this.npcs.setAll('anchor.y', 1);
-    this.npcs.setAll('anchor.y', 1);
+    this.npcs.setAll('anchor.x', 0.5);
+    this.npcs.setAll('anchor.y', 0.25);
     this.npcs.setAll('maxHealth', 5);
     this.npcs.setAll('body.immovable', true);
     this.npcs.forEach(e => {
