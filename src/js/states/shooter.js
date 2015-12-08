@@ -94,7 +94,6 @@ const Shooter = {
   },
 
   createPlayer() {
-    console.log(this.world.height);
     var player = this.add.sprite(this.world.width * 0.5, this.world.height - 200, 'ship');
     player.anchor.set(0.5);
     player.scale.set(0.35);
